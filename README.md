@@ -5,7 +5,7 @@ Helpful scripts for building Carbon
 
 QuickStart:
 
-    git clone https://github.com/alwaysadeel/hudson.git -b kk carbon;
+    git clone https://github.com/CarbonDevXperia/hudson.git -b kk carbon;
     cd carbon;
     repo init -u https://github.com/CarbonDev/android.git -b kk
     ./Update.sh;
