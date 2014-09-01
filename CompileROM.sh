@@ -8,8 +8,17 @@ if [[ $# = 1 ]]; then
        export JAVA_HOME=$(realpath ../jdk1.6.0_45);
     fi
     case $1 in
+    -p)
+      brunch nypon;
+    ;;
+    -u)
+      brunch kumquat;
+    ;;
     -s)
       brunch pepper;
+    ;;
+    -g)
+      brunch lotus;
     ;;
     *)
       echo "ERROR: Unknow option";
@@ -21,6 +30,6 @@ if [[ $# = 1 ]]; then
     exit -1;
   fi
 else
-  echo "ERROR: Number of options not correct. Usage: ./CompileROM.sh -s"
+  echo "ERROR: Number of options not correct. Usage: ./CompileROM.sh -p | -u | -s | -g"
   exit -1;
 fi

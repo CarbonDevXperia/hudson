@@ -26,7 +26,10 @@
   <remove-project name="CarbonDev/android_art" />
   <remove-project name="platform/external/valgrind"            groups="pdk" />
 
-  <project path="device/sony/pepper" name="alwaysadeel/android_device_sony_pepper" remote="gh" revision="kk" />
+  <project path="device/sony/nypon" name="CarbonDevXperia/android_device_sony_nypon" remote="gh" revision="kk" />
+  <project path="device/sony/kumquat" name="CarbonDevXperia/android_device_sony_kumquat" remote="gh" revision="kk" />
+  <project path="device/sony/pepper" name="CarbonDevXperia/android_device_sony_pepper" remote="gh" revision="kk" />
+  <project path="device/sony/lotus" name="CarbonDevXperia/android_device_sony_lotus" remote="gh" revision="kk" />
   <project path="device/sony/montblanc-common" name="CarbonDevXperia/android_device_sony_montblanc-common" remote="gh" revision="master" />
   <project path="hardware/ste-sony" name="CarbonDevXperia/android_hardware_ste-sony" remote="gh" revision="master" />
   <project path="kernel/sony/u8500" name="CarbonDevXperia/android_kernel_sony_u8500" remote="gh" revision="master" />

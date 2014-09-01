@@ -1,6 +1,6 @@
 if [[ $# = 1 ]]; then
   case $1 in
-  -u|-p)
+  -u|-p|-s|-g)
   ;;
   *)
     echo "ERROR: Unknow option"
@@ -8,7 +8,7 @@ if [[ $# = 1 ]]; then
   ;;
   esac
 else 
-   echo "ERROR: Number of options not correct. Usage: ./CRUC.sh -u | -p"
+   echo "ERROR: Number of options not correct. Usage: ./CRUC.sh -u | -p | -s | -g"
    exit -1;
 fi
 
