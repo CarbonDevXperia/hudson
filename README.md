@@ -9,7 +9,10 @@ QuickStart:
     cd carbon;
     repo init -u https://github.com/CarbonDev/android.git -b kk
     ./Update.sh;
-    ./CompileROM.sh -s; (Xperia Sola)   
+    ./CompileROM.sh -p; (Xperia P)   
+    ./CompileROM.sh -u; (Xperia U)
+    ./CompileROM.sh -s; (Xperia Sola)
+    ./CompileROM.sh -g; (Xperia Go)
 
 Credits:
     
