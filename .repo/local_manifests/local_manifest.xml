@@ -52,10 +52,6 @@
   <project path="external/bluetooth/bluez" name="CarbonDevXperia/android_external_bluetooth_bluez" remote="gh" revision="master" />
   <project path="external/bluetooth/sbc" name="bluetooth/sbc" remote="kernel"     revision="master" groups="pdk" />
   <project path="external/bluetooth/glib" name="aosp-bluez.glib" remote="googlecode" revision="master" groups="pdk" />
-<<<<<<< HEAD
-=======
- 
->>>>>>> 059aa56df44b0a3f09295e66b1e8320ece917c6b
   <project path="frameworks/av" name="CarbonDevXperia/android_frameworks_av" remote="gh" revision="kk" />
   <project path="frameworks/native" name="CarbonDevXperia/android_frameworks_native" remote="gh" revision="kk" />
   <project path="frameworks/base" name="CarbonDevXperia/android_frameworks_base" remote="gh" revision="kk" />
