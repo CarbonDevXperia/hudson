@@ -26,7 +26,6 @@
   <remove-project name="CarbonDev/android_art" />
   <remove-project name="platform/external/valgrind"            groups="pdk" />
   <remove-project name="CarbonDev/android_vendor_carbon" />
-  <remove-project name="CyanogenMod/android_packages_apps_CMFileManager" />
   
   <project path="device/sony/nypon" name="CarbonDevXperia/android_device_sony_nypon" remote="gh" revision="cm-11.0" />
   <project path="device/sony/kumquat" name="CarbonDevXperia/android_device_sony_kumquat" remote="gh" revision="kk" />
